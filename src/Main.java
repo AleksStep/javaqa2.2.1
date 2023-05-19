@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
         BonusService bonusService = new BonusService();
         int totalSum = 101;
-        System.out.println(bonusService.CalculateBonus(totalSum));
+        System.out.println(bonusService.calculateBonus(totalSum));
     }
 }
